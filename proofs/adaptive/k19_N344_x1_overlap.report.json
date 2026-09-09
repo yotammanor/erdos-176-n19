@@ -1,0 +1,14 @@
+{
+  "base": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1.cnf",
+  "base_clauses": 1832209,
+  "base_sha256": "e548cab0efb34dd87aaa26c26f51f6a510d3eb0cf59a843b3fda0a0f4c4232b1",
+  "clauses": 1861639,
+  "ell": 2,
+  "k": 19,
+  "n": 344,
+  "overlap_clauses": 29430,
+  "path": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1_overlap.cnf",
+  "schema": "erdos176.overlap-linked-cnf.v1",
+  "sha256": "b5ed447f144bfe2203f853c629d359038f1409e1e67a92eeaa22bfddb4a55578",
+  "variables": 480208
+}

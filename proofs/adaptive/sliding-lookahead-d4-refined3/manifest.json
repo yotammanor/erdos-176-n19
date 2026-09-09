@@ -1,0 +1,23 @@
+{
+  "schema": "erdos176.adaptive-cube-campaign.v1",
+  "base": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1_sliding.cnf",
+  "base_sha256": "ab670b737250f5bb23e7849bbdb8b1ded24e8c5149c6e3da22d456f1ac27644e",
+  "solver": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/tools/bin/cadical",
+  "solver_sha256": "c4be053d54dada4c6da01d6819571ea053943423cd3249ff8a097e3fab8ae995",
+  "checker": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/tools/bin/drat-trim",
+  "checker_sha256": "45039a924080537bd839f21b41127ba2fa5002f7bc61945bfa36e7d49b9880ca",
+  "nvars": 32005,
+  "nclauses": 138594,
+  "n_original": 344,
+  "k": 19,
+  "ell": 2,
+  "cube_count": 61,
+  "tree": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_lookahead_d4_refined3.tree.json",
+  "tree_sha256": "a23d5bc2e2fe8aafb1f91b0961b0733787901262e5e761e8418bcdf28bd1eca3",
+  "cube_convention": "leaf ID and literals from audited tree",
+  "solver_args": [
+    "--unsat",
+    "-t",
+    "120"
+  ]
+}

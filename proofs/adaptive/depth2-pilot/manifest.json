@@ -1,0 +1,19 @@
+{
+  "schema": "erdos176.adaptive-cube-campaign.v1",
+  "base": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1.cnf",
+  "base_sha256": "e548cab0efb34dd87aaa26c26f51f6a510d3eb0cf59a843b3fda0a0f4c4232b1",
+  "nvars": 480208,
+  "nclauses": 1832209,
+  "n_original": 344,
+  "k": 19,
+  "ell": 2,
+  "cube_count": 4,
+  "tree": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_depth2.tree.json",
+  "tree_sha256": "0db27a2c9e7d2e6cc06fb42fa191d664472f17de1dc836a01926c3eada47d17a",
+  "cube_convention": "leaf ID and literals from audited tree",
+  "solver_args": [
+    "--unsat",
+    "-t",
+    "60"
+  ]
+}

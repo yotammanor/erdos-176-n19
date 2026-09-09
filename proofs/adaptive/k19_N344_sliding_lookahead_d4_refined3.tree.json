@@ -1,0 +1,1534 @@
+{
+  "leaf_count": 61,
+  "nodes": [
+    {
+      "id": 0,
+      "negative": 1,
+      "positive": 106,
+      "type": "split",
+      "variable": 3845
+    },
+    {
+      "id": 1,
+      "negative": 2,
+      "positive": 99,
+      "type": "split",
+      "variable": 3680
+    },
+    {
+      "id": 2,
+      "negative": 3,
+      "positive": 6,
+      "type": "split",
+      "variable": 4661
+    },
+    {
+      "id": 3,
+      "negative": 4,
+      "positive": 5,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 4,
+      "leaf_id": 0,
+      "literals": [
+        -3845,
+        -3680,
+        -4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 5,
+      "leaf_id": 1,
+      "literals": [
+        -3845,
+        -3680,
+        -4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 6,
+      "negative": 7,
+      "positive": 98,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 7,
+      "negative": 8,
+      "positive": 83,
+      "type": "split",
+      "variable": 4835
+    },
+    {
+      "id": 8,
+      "negative": 9,
+      "positive": 76,
+      "type": "split",
+      "variable": 4505
+    },
+    {
+      "id": 9,
+      "negative": 10,
+      "positive": 73,
+      "type": "split",
+      "variable": 3835
+    },
+    {
+      "id": 10,
+      "negative": 11,
+      "positive": 12,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 11,
+      "leaf_id": 2,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 12,
+      "negative": 13,
+      "positive": 28,
+      "type": "split",
+      "variable": 6311
+    },
+    {
+      "id": 13,
+      "negative": 14,
+      "positive": 21,
+      "type": "split",
+      "variable": 6155
+    },
+    {
+      "id": 14,
+      "negative": 15,
+      "positive": 18,
+      "type": "split",
+      "variable": 6320
+    },
+    {
+      "id": 15,
+      "negative": 16,
+      "positive": 17,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 16,
+      "leaf_id": 3,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        -6155,
+        -6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 17,
+      "leaf_id": 4,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        -6155,
+        -6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 18,
+      "negative": 19,
+      "positive": 20,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 19,
+      "leaf_id": 5,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        -6155,
+        6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 20,
+      "leaf_id": 6,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        -6155,
+        6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 21,
+      "negative": 22,
+      "positive": 25,
+      "type": "split",
+      "variable": 6320
+    },
+    {
+      "id": 22,
+      "negative": 23,
+      "positive": 24,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 23,
+      "leaf_id": 7,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        6155,
+        -6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 24,
+      "leaf_id": 8,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        6155,
+        -6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 25,
+      "negative": 26,
+      "positive": 27,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 26,
+      "leaf_id": 9,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        6155,
+        6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 27,
+      "leaf_id": 10,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        -6311,
+        6155,
+        6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 28,
+      "negative": 29,
+      "positive": 66,
+      "type": "split",
+      "variable": 6155
+    },
+    {
+      "id": 29,
+      "negative": 30,
+      "positive": 63,
+      "type": "split",
+      "variable": 6320
+    },
+    {
+      "id": 30,
+      "negative": 31,
+      "positive": 62,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 31,
+      "negative": 32,
+      "positive": 47,
+      "type": "split",
+      "variable": 5990
+    },
+    {
+      "id": 32,
+      "negative": 33,
+      "positive": 40,
+      "type": "split",
+      "variable": 4825
+    },
+    {
+      "id": 33,
+      "negative": 34,
+      "positive": 37,
+      "type": "split",
+      "variable": 3517
+    },
+    {
+      "id": 34,
+      "negative": 35,
+      "positive": 36,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 35,
+      "leaf_id": 11,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        -4825,
+        -3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 36,
+      "leaf_id": 12,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        -4825,
+        -3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 37,
+      "negative": 38,
+      "positive": 39,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 38,
+      "leaf_id": 13,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        -4825,
+        3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 39,
+      "leaf_id": 14,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        -4825,
+        3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 40,
+      "negative": 41,
+      "positive": 44,
+      "type": "split",
+      "variable": 3517
+    },
+    {
+      "id": 41,
+      "negative": 42,
+      "positive": 43,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 42,
+      "leaf_id": 15,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        4825,
+        -3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 43,
+      "leaf_id": 16,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        4825,
+        -3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 44,
+      "negative": 45,
+      "positive": 46,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 45,
+      "leaf_id": 17,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        4825,
+        3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 46,
+      "leaf_id": 18,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        -5990,
+        4825,
+        3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 47,
+      "negative": 48,
+      "positive": 55,
+      "type": "split",
+      "variable": 4825
+    },
+    {
+      "id": 48,
+      "negative": 49,
+      "positive": 52,
+      "type": "split",
+      "variable": 3517
+    },
+    {
+      "id": 49,
+      "negative": 50,
+      "positive": 51,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 50,
+      "leaf_id": 19,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        -4825,
+        -3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 51,
+      "leaf_id": 20,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        -4825,
+        -3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 52,
+      "negative": 53,
+      "positive": 54,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 53,
+      "leaf_id": 21,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        -4825,
+        3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 54,
+      "leaf_id": 22,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        -4825,
+        3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 55,
+      "negative": 56,
+      "positive": 59,
+      "type": "split",
+      "variable": 3517
+    },
+    {
+      "id": 56,
+      "negative": 57,
+      "positive": 58,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 57,
+      "leaf_id": 23,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        4825,
+        -3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 58,
+      "leaf_id": 24,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        4825,
+        -3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 59,
+      "negative": 60,
+      "positive": 61,
+      "type": "split",
+      "variable": 3515
+    },
+    {
+      "id": 60,
+      "leaf_id": 25,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        4825,
+        3517,
+        -3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 61,
+      "leaf_id": 26,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        -6485,
+        5990,
+        4825,
+        3517,
+        3515
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 62,
+      "leaf_id": 27,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        -6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 63,
+      "negative": 64,
+      "positive": 65,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 64,
+      "leaf_id": 28,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 65,
+      "leaf_id": 29,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        -6155,
+        6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 66,
+      "negative": 67,
+      "positive": 70,
+      "type": "split",
+      "variable": 6320
+    },
+    {
+      "id": 67,
+      "negative": 68,
+      "positive": 69,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 68,
+      "leaf_id": 30,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        6155,
+        -6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 69,
+      "leaf_id": 31,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        6155,
+        -6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 70,
+      "negative": 71,
+      "positive": 72,
+      "type": "split",
+      "variable": 6485
+    },
+    {
+      "id": 71,
+      "leaf_id": 32,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        6155,
+        6320,
+        -6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 72,
+      "leaf_id": 33,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        -3835,
+        6146,
+        6311,
+        6155,
+        6320,
+        6485
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 73,
+      "negative": 74,
+      "positive": 75,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 74,
+      "leaf_id": 34,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 75,
+      "leaf_id": 35,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        -4505,
+        3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 76,
+      "negative": 77,
+      "positive": 80,
+      "type": "split",
+      "variable": 3835
+    },
+    {
+      "id": 77,
+      "negative": 78,
+      "positive": 79,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 78,
+      "leaf_id": 36,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        4505,
+        -3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 79,
+      "leaf_id": 37,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        4505,
+        -3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 80,
+      "negative": 81,
+      "positive": 82,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 81,
+      "leaf_id": 38,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        4505,
+        3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 82,
+      "leaf_id": 39,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        -4835,
+        4505,
+        3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 83,
+      "negative": 84,
+      "positive": 91,
+      "type": "split",
+      "variable": 4505
+    },
+    {
+      "id": 84,
+      "negative": 85,
+      "positive": 88,
+      "type": "split",
+      "variable": 3835
+    },
+    {
+      "id": 85,
+      "negative": 86,
+      "positive": 87,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 86,
+      "leaf_id": 40,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        -4505,
+        -3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 87,
+      "leaf_id": 41,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        -4505,
+        -3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 88,
+      "negative": 89,
+      "positive": 90,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 89,
+      "leaf_id": 42,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        -4505,
+        3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 90,
+      "leaf_id": 43,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        -4505,
+        3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 91,
+      "negative": 92,
+      "positive": 95,
+      "type": "split",
+      "variable": 3835
+    },
+    {
+      "id": 92,
+      "negative": 93,
+      "positive": 94,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 93,
+      "leaf_id": 44,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        4505,
+        -3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 94,
+      "leaf_id": 45,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        4505,
+        -3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 95,
+      "negative": 96,
+      "positive": 97,
+      "type": "split",
+      "variable": 6146
+    },
+    {
+      "id": 96,
+      "leaf_id": 46,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        4505,
+        3835,
+        -6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 97,
+      "leaf_id": 47,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        -4670,
+        4835,
+        4505,
+        3835,
+        6146
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 98,
+      "leaf_id": 48,
+      "literals": [
+        -3845,
+        -3680,
+        4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 99,
+      "negative": 100,
+      "positive": 103,
+      "type": "split",
+      "variable": 4661
+    },
+    {
+      "id": 100,
+      "negative": 101,
+      "positive": 102,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 101,
+      "leaf_id": 49,
+      "literals": [
+        -3845,
+        3680,
+        -4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 102,
+      "leaf_id": 50,
+      "literals": [
+        -3845,
+        3680,
+        -4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 103,
+      "negative": 104,
+      "positive": 105,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 104,
+      "leaf_id": 51,
+      "literals": [
+        -3845,
+        3680,
+        4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 105,
+      "leaf_id": 52,
+      "literals": [
+        -3845,
+        3680,
+        4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 106,
+      "negative": 107,
+      "positive": 114,
+      "type": "split",
+      "variable": 3680
+    },
+    {
+      "id": 107,
+      "negative": 108,
+      "positive": 111,
+      "type": "split",
+      "variable": 4661
+    },
+    {
+      "id": 108,
+      "negative": 109,
+      "positive": 110,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 109,
+      "leaf_id": 53,
+      "literals": [
+        3845,
+        -3680,
+        -4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 110,
+      "leaf_id": 54,
+      "literals": [
+        3845,
+        -3680,
+        -4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 111,
+      "negative": 112,
+      "positive": 113,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 112,
+      "leaf_id": 55,
+      "literals": [
+        3845,
+        -3680,
+        4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 113,
+      "leaf_id": 56,
+      "literals": [
+        3845,
+        -3680,
+        4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 114,
+      "negative": 115,
+      "positive": 118,
+      "type": "split",
+      "variable": 4661
+    },
+    {
+      "id": 115,
+      "negative": 116,
+      "positive": 117,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 116,
+      "leaf_id": 57,
+      "literals": [
+        3845,
+        3680,
+        -4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 117,
+      "leaf_id": 58,
+      "literals": [
+        3845,
+        3680,
+        -4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 118,
+      "negative": 119,
+      "positive": 120,
+      "type": "split",
+      "variable": 4670
+    },
+    {
+      "id": 119,
+      "leaf_id": 59,
+      "literals": [
+        3845,
+        3680,
+        4661,
+        -4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 120,
+      "leaf_id": 60,
+      "literals": [
+        3845,
+        3680,
+        4661,
+        4670
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    }
+  ],
+  "nvars": 32005,
+  "partition_argument": "Every split node has both Boolean children. Therefore its leaf paths partition all assignments, including explicit leaves added for branches omitted by the look-ahead cube generator.",
+  "returned_cube_count": 61,
+  "root": 0,
+  "schema": "erdos176.adaptive-cube-tree.v1"
+}

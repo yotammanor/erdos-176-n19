@@ -1,0 +1,71 @@
+{
+  "leaf_count": 4,
+  "nodes": [
+    {
+      "id": 0,
+      "negative": 1,
+      "positive": 4,
+      "type": "split",
+      "variable": 72000
+    },
+    {
+      "id": 1,
+      "negative": 2,
+      "positive": 3,
+      "type": "split",
+      "variable": 71692
+    },
+    {
+      "id": 2,
+      "leaf_id": 0,
+      "literals": [
+        -72000,
+        -71692
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 3,
+      "leaf_id": 1,
+      "literals": [
+        -72000,
+        71692
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 4,
+      "negative": 5,
+      "positive": 6,
+      "type": "split",
+      "variable": 71692
+    },
+    {
+      "id": 5,
+      "leaf_id": 2,
+      "literals": [
+        72000,
+        -71692
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 6,
+      "leaf_id": 3,
+      "literals": [
+        72000,
+        71692
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    }
+  ],
+  "nvars": 480208,
+  "partition_argument": "Every split node has both Boolean children. Therefore its leaf paths partition all assignments, including explicit leaves added for branches omitted by the look-ahead cube generator.",
+  "returned_cube_count": 4,
+  "root": 0,
+  "schema": "erdos176.adaptive-cube-tree.v1"
+}

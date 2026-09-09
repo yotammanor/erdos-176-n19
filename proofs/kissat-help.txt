@@ -1,0 +1,227 @@
+usage: kissat [ <option> ... ] [ <dimacs> [ <proof> ] ]
+
+where '<option>' is one of the following common options:
+
+  --help  print this list of all command line options
+  -h      print only reduced list of command line options
+
+  -f      force writing proofs (to existing CNF alike file)
+  -n      do not print satisfying assignment
+
+  -q      suppress all messages (see also '--quiet')
+  -s      print all statistics (see also '--statistics')
+  -v      increase verbose level (see also '--verbose')
+
+Further '<option>' can be one of the following less frequent options:
+
+  --banner             print solver information
+  --build              print build information
+  --color              use colors (default if connected to terminal)
+  --no-color           no colors (default if not connected to terminal)
+  --compiler           print compiler information
+  --copyright          print copyright information
+  --force              same as '-f' (force writing proof)
+  --id                 print 'git' identifier (SHA-1 hash)
+  --range              print option range list
+  --relaxed            relaxed parsing (ignore DIMACS header)
+  --strict             stricter parsing (no empty header lines)
+  --version            print version
+
+The following solving limits can be enforced:
+
+  --conflicts=<limit>
+  --decisions=<limit>
+  --time=<seconds>
+
+Satisfying assignments have by default values for all variables
+unless '--partial' is specified, then only values are printed
+for variables which are necessary to satisfy the formula.
+
+The following predefined 'configurations' (option settings) are supported:
+
+  --basic    basic CDCL solving ('--plain' but no restarts, minimize, reduce)
+  --default  default configuration
+  --plain    plain CDCL solving without advanced techniques
+  --sat      target satisfiable instances ('--target=2 --restartint=50')
+  --unsat    target unsatisfiable instances ('--stable=0')
+
+Or '<option>' is one of the following long options:
+
+  --ands=<bool>              extract and eliminate and gates [true]
+  --backbone=0..2            binary clause backbone (2=eager) [1]
+  --backboneeffort=0..1e5    effort in per mille [20]
+  --backbonemaxrounds=1...   maximum backbone rounds [1e3]
+  --backbonerounds=1...      backbone rounds limit [100]
+  --bigbigfraction=0..1e3    big binary clause fraction per mille [990]
+  --bump=<bool>              enable variable bumping [true]
+  --bumpreasons=<bool>       bump reason side literals too [true]
+  --bumpreasonslimit=1...    relative reason literals limit [10]
+  --bumpreasonsrate=1...     decision rate limit [10]
+  --chrono=<bool>            allow chronological backtracking [true]
+  --chronolevels=0...        maximum jumped over levels [100]
+  --compact=<bool>           enable compacting garbage collection [true]
+  --compactlim=0..100        compact inactive limit (in percent) [10]
+  --congruence=<bool>        congruence closure on extracted gates [true]
+  --congruenceandarity=2..5e7 AND gate arity limit [1e6]
+  --congruenceands=<bool>    extract AND gates for congruence closure [true]
+  --congruencebinaries=<bool> extract certain binary clauses [true]
+  --congruenceites=<bool>    extract ITE gates for congruence closure [true]
+  --congruenceonce=<bool>    congruence closure only initially [false]
+  --congruencexorarity=2..20 congruence XOR gate arity limit [4]
+  --congruencexorcounts=1... XOR counting rounds [2]
+  --congruencexors=<bool>    extract XOR gates for congruence closure [true]
+  --decay=1..200             per mille scores decay [50]
+  --definitioncores=1..100   how many cores [2]
+  --definitions=<bool>       extract general definitions [true]
+  --definitionticks=0...     kitten ticks limits [1e6]
+  --defraglim=50..100        usable defragmentation limit in percent [75]
+  --defragsize=10...         size defragmentation limit [2^18]
+  --eagersubsume=0..4        eagerly subsume previous learned clauses [4]
+  --eliminate=<bool>         bounded variable elimination BVE [true]
+  --eliminatebound=0..2^13   maximum elimination bound [16]
+  --eliminateclslim=1...     elimination clause size limit [100]
+  --eliminateeffort=0..2e3   effort in per mille [100]
+  --eliminateinit=0...       initial elimination interval [500]
+  --eliminateint=10...       base elimination interval [500]
+  --eliminateocclim=0...     elimination occurrence limit [2e3]
+  --eliminaterounds=1..1e4   elimination rounds limit [2]
+  --emafast=10..1e6          fast exponential moving average window [33]
+  --emaslow=100..1e6         slow exponential moving average window [1e5]
+  --equivalences=<bool>      extract and eliminate equivalence gates [true]
+  --extract=<bool>           extract gates in variable elimination [true]
+  --factor=<bool>            bounded variable addition [true]
+  --factorcandrounds=0...    candidates reduction rounds [2]
+  --factordelay=0..12        delaying factor [4]
+  --factoreffort=0..1e6      bounded variable effort in per mille [50]
+  --factorhops=1..10         structural factoring heuristic hops [3]
+  --factoriniticks=1..1e6    initial ticks ticks in millions [700]
+  --factorsize=2...          bounded variable addition clause size [5]
+  --factorstructural=<bool>  structural bounded variable addition [false]
+  --fastel=<bool>            initial fast variable elimination [false]
+  --fastelclslim=1...        fast elimination clause length limit [100]
+  --fastelim=1..1e3          fast elimination resolvents limit [8]
+  --fasteloccs=1..1e3        fast elimination occurrence limit [100]
+  --fastelrounds=1..1e3      fast elimination rounds [4]
+  --fastelsub=<bool>         forward subsuming fast variable elimination [true]
+  --flushproof=<bool>        flush proof lines immediately [false]
+  --focusedtiers=<bool>      always used focused mode tiers [true]
+  --forcephase=<bool>        force initial phase [false]
+  --forward=<bool>           forward subsumption in BVE [true]
+  --forwardeffort=0..1e6     effort in per mille [100]
+  --ifthenelse=<bool>        extract and eliminate if-then-else gates [true]
+  --incremental=<bool>       enable incremental solving [false]
+  --jumpreasons=<bool>       jump binary reasons [true]
+  --lucky=<bool>             try some lucky assignments [true]
+  --luckyearly=<bool>        lucky assignments before preprocessing [true]
+  --luckylate=<bool>         lucky assignments after preprocessing [true]
+  --mineffort=0...           minimum absolute effort in millions [10]
+  --minimize=<bool>          learned clause minimization [true]
+  --minimizedepth=1..1e6     minimization depth [1e3]
+  --minimizeticks=<bool>     count ticks in minimize and shrink [true]
+  --modeinit=10..1e8         initial focused conflicts limit [1e3]
+  --modeint=10..1e8          focused conflicts interval [1e3]
+  --otfs=<bool>              on-the-fly strengthening [true]
+  --phase=<bool>             initial decision phase [true]
+  --phasesaving=<bool>       enable phase saving [true]
+  --preprocess=<bool>        initial preprocessing [true]
+  --preprocessbackbone=<bool> backbone preprocessing [true]
+  --preprocesscongruence=<bool> congruence preprocessing [true]
+  --preprocessfactor=<bool>  variable addition preprocessing [true]
+  --preprocessprobe=<bool>   probing preprocessing [true]
+  --preprocessrounds=1...    initial preprocessing rounds [1]
+  --preprocessweep=<bool>    sweep preprocessing [true]
+  --probe=<bool>             enable probing [true]
+  --probeinit=0...           initial probing interval [100]
+  --probeint=2...            probing interval [100]
+  --proberounds=1...         probing rounds [2]
+  --profile=0..4             profile level [2]
+  --promote=<bool>           promote clauses [true]
+  --quiet=<bool>             disable all messages [false]
+  --randec=<bool>            random decisions [true]
+  --randecfocused=<bool>     random decisions in focused mode [true]
+  --randecinit=0...          random decisions interval [500]
+  --randecint=0...           initial random decisions interval [500]
+  --randeclength=1...        random conflicts length [10]
+  --randecstable=<bool>      random decisions in stable mode [false]
+  --reduce=<bool>            learned clause reduction [true]
+  --reducehigh=0..1e3        high reduce fraction per mille [900]
+  --reduceinit=2..1e5        initial reduce interval [1e3]
+  --reduceint=2..1e5         base reduce interval [1e3]
+  --reducelow=0..1e3         low reduce fraction per mille [500]
+  --reluctant=<bool>         stable reluctant doubling restarting [true]
+  --reluctantint=2..2^15     reluctant interval [2^10]
+  --reluctantlim=0..2^30     reluctant limit (0=unlimited) [2^20]
+  --reorder=0..2             reorder decisions (1=stable-mode-only) [2]
+  --reorderinit=0..1e5       initial reorder interval [1e4]
+  --reorderint=1..1e5        base reorder interval [1e4]
+  --reordermaxsize=2..2^8    reorder maximum clause size [100]
+  --rephase=<bool>           reinitialization of decision phases [true]
+  --rephaseinit=10..1e5      initial rephase interval [1e3]
+  --rephaseint=10..1e5       base rephase interval [1e3]
+  --restart=<bool>           enable restarts [true]
+  --restartint=1..1e4        base restart interval [1]
+  --restartmargin=0..25      fast/slow margin in percent [10]
+  --restartreusetrail=<bool> restarts tries to reuse trail [true]
+  --seed=0...                random seed [0]
+  --shrink=0..3              learned clauses (1=bin,2=lrg,3=rec) [3]
+  --simplify=<bool>          enable probing and elimination [true]
+  --smallclauses=0...        small clauses limit [1e5]
+  --stable=0..2              enable stable search mode [1]
+  --statistics=<bool>        print complete statistics [false]
+  --substitute=<bool>        equivalent literal substitution [true]
+  --substituteeffort=1..1e3  effort in per mille [10]
+  --substituterounds=1..100  maximum substitution rounds [2]
+  --subsumeclslim=1...       subsumption clause size limit [1e3]
+  --subsumeocclim=0...       subsumption occurrence limit [1e3]
+  --sweep=<bool>             enable SAT sweeping [true]
+  --sweepclauses=0...        environment clauses [2^10]
+  --sweepcomplete=<bool>     run SAT sweeping until completion [false]
+  --sweepdepth=0...          environment depth [2]
+  --sweepeffort=0..1e4       effort in per mille [100]
+  --sweepfliprounds=0...     flipping rounds [1]
+  --sweepmaxclauses=2...     maximum environment clauses [2^15]
+  --sweepmaxdepth=1...       maximum environment depth [3]
+  --sweepmaxvars=2...        maximum environment variables [2^13]
+  --sweeprand=<bool>         randomize sweeping environment [false]
+  --sweepvars=0...           environment variables [2^8]
+  --target=0..2              target phases (1=stable,2=focused) [1]
+  --tier1=1..100             learned clause tier one glue limit [2]
+  --tier1relative=0..1e3     relative tier one glue limit [500]
+  --tier2=1..1e3             learned clause tier two glue limit [6]
+  --tier2relative=0..1e3     relative tier two glue limit [900]
+  --transitive=<bool>        transitive reduction of binary clauses [true]
+  --transitiveeffort=0..2e3  effort in per mille [20]
+  --transitivekeep=<bool>    keep transitivity candidates [true]
+  --tumble=<bool>            tumbled external indices order [true]
+  --verbose=0..3             verbosity level [0]
+  --vivify=<bool>            vivify clauses [true]
+  --vivifyeffort=0..1e3      effort in per mille [100]
+  --vivifyfocusedtiers=<bool> use focused tier limits [true]
+  --vivifyirr=0..100         relative irredundant effort [3]
+  --vivifysort=<bool>        sort vivification candidates [true]
+  --vivifytier1=0..100       relative tier1 effort [3]
+  --vivifytier2=0..100       relative tier2 effort [3]
+  --vivifytier3=0..100       relative tier3 effort [1]
+  --walkeffort=0..1e6        effort in per mille [50]
+  --walkinitially=<bool>     initial local search [false]
+  --warmup=<bool>            initialize phases by unit propagation [true]
+
+Furthermore '<dimacs>' is the input file in DIMACS format.
+The solver reads from '<stdin>' if '<dimacs>' is unspecified.
+If the path has a '.bz2', '.gz', '.lzma', '7z' or '.xz' suffix
+then the solver tries to find a corresponding decompression
+tool ('bzip2', 'gzip', 'lzma', '7z', or 'xz') to decompress
+the input file on-the-fly after checking that the input file
+has the correct format (starts with the corresponding
+signature bytes).
+
+If '<proof>' is specified then a proof trace is written to the
+given file.  If the file name is '-' then the proof is written
+to '<stdout>'. In this case the ASCII version of the DRAT format
+is used.  For real files the binary proof format is used unless
+'--no-binary' is specified.
+
+Writing of compressed proof files follows the same principle
+as reading compressed files. The compression format is based
+on the file suffix and it is checked that the corresponding
+compression utility can be found.

@@ -1,0 +1,770 @@
+{
+  "complete": false,
+  "covered_leaves": 6637,
+  "covered_proof_bytes": 3102687976,
+  "covered_solver_log_bytes": 35546943,
+  "missing_leaves": [
+    4018,
+    4019,
+    4020,
+    4021,
+    4022,
+    4023,
+    4024,
+    4025,
+    4026,
+    4027,
+    4028,
+    4029,
+    4030,
+    4031,
+    4032,
+    4033,
+    4034,
+    4035,
+    4036,
+    4037,
+    4038,
+    4039,
+    4040,
+    4041,
+    4042,
+    4043,
+    4044,
+    4045,
+    4046,
+    4047,
+    4048,
+    4049,
+    4050,
+    4051,
+    4052,
+    4053,
+    4054,
+    4055,
+    4056,
+    4057,
+    4058,
+    4059,
+    4060,
+    4061,
+    4062,
+    4063,
+    4064,
+    4065,
+    4066,
+    4067,
+    4068,
+    4069,
+    4070,
+    4071,
+    4072,
+    4073,
+    4074,
+    4075,
+    4076,
+    4077,
+    4078,
+    4079,
+    4080,
+    4081,
+    4082,
+    4083,
+    4084,
+    4085,
+    4086,
+    4087,
+    4088,
+    4089,
+    4090,
+    4091,
+    4092,
+    4093,
+    4094,
+    4095,
+    4096,
+    4097,
+    4098,
+    4099,
+    4100,
+    4101,
+    4102,
+    4103,
+    4104,
+    4105,
+    4106,
+    4107,
+    4108,
+    4109,
+    4110,
+    4111,
+    4112,
+    4113,
+    4114,
+    4115,
+    4116,
+    4117,
+    4118,
+    4119,
+    4120,
+    4121,
+    4122,
+    4123,
+    4124,
+    4125,
+    4126,
+    4127,
+    4128,
+    4129,
+    4130,
+    4131,
+    4132,
+    4133,
+    4134,
+    4135,
+    4136,
+    4137,
+    4138,
+    4139,
+    4140,
+    4141,
+    4142,
+    4143,
+    4144,
+    4145,
+    4146,
+    4147,
+    4148,
+    4149,
+    4150,
+    4151,
+    4152,
+    4153,
+    4154,
+    4155,
+    4156,
+    4157,
+    4158,
+    4159,
+    4160,
+    4161,
+    4162,
+    4163,
+    4164,
+    4165,
+    4166,
+    4167,
+    4168,
+    4169,
+    4170,
+    4171,
+    4172,
+    4173,
+    4174,
+    4175,
+    4176,
+    4177,
+    4178,
+    4179,
+    4180,
+    4181,
+    4182,
+    4183,
+    4184,
+    4185,
+    4186,
+    4187,
+    4188,
+    4189,
+    4190,
+    4191,
+    4192,
+    4193,
+    4194,
+    4195,
+    4196,
+    4197,
+    4198,
+    4199,
+    4200,
+    4201,
+    4202,
+    4203,
+    4204,
+    4205,
+    4206,
+    4207,
+    4208,
+    4209,
+    4210,
+    4211,
+    4212,
+    4213,
+    4214,
+    4215,
+    4216,
+    4217,
+    4218,
+    4219,
+    4220,
+    4221,
+    4222,
+    4223,
+    4224,
+    4225,
+    4226,
+    4227,
+    4228,
+    4229,
+    4230,
+    4231,
+    4232,
+    4233,
+    4234,
+    4235,
+    4236,
+    4237,
+    4238,
+    4239,
+    4240,
+    4241,
+    4242,
+    4243,
+    4244,
+    4245,
+    4246,
+    4247,
+    4248,
+    4249,
+    4250,
+    4251,
+    4252,
+    4253,
+    4254,
+    4255,
+    4256,
+    4257,
+    4258,
+    4259,
+    4260,
+    4261,
+    4262,
+    4263,
+    4264,
+    4265,
+    4266,
+    4267,
+    4268,
+    4269,
+    4270,
+    4271,
+    4272,
+    4635,
+    4699,
+    4731,
+    4747,
+    4755,
+    4759,
+    4761,
+    4762,
+    5034
+  ],
+  "schema": "erdos176.adaptive-campaign-assembly.v1",
+  "sources": [
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/depth2-pilot",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/final31",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "accepted_records": 230,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912-r1",
+      "manifest_sha256": "46f0dbc51fb09847278e991a42920244c45325ce68b9a2f26401cc9760972ef8",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 8,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-final3985-r1",
+      "manifest_sha256": "4d9bf796536cf7339d5c2afb3b9aa1d45b2f96d60e07e17fd200e16b38e2eeaf",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 7,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-final3985-r1-kissat",
+      "manifest_sha256": "d38fd16d49314561f44b9c6f34d7935945dc293ebdc35bb792ef14bcf050800e",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 8,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-final3993-r1",
+      "manifest_sha256": "1eef364a6094e40693bbb9faf7b520e4505ed099e743bf5ff4a144758a476ecd",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 8,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-final3993-r1-kissat",
+      "manifest_sha256": "197c637fda8020dbbe8a3bcad1e8522db94124a65b0ab4f226557a76b4770081",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 2,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-kissat-r1",
+      "manifest_sha256": "5529654028c4552d29bdd97b773e0d117900104cf69890aa6fea700ebf815c86",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 10,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-r1",
+      "manifest_sha256": "5147ff50556c5bd50ee1236c38b69ba6838b81008ef49bc8f444ac7f295617ec",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 12,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-refine4-r1",
+      "manifest_sha256": "e8e3381f8b4b6fa1421876e1053520873af16f02336b434632bb0beaf80b33af",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 14,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-refine4-r2",
+      "manifest_sha256": "3cefd26f8768f0aa01661b1927be29b0b8338f6186a6e9747c7b20a878a093e5",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 13,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-refine4-r3",
+      "manifest_sha256": "2baaebf58fa30b292ca38e6471efdb1f7b56b70d7579682db207120f49a47960",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 9,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-refine4-r4",
+      "manifest_sha256": "b17350348f80e91195d4429264da72b96edada5c2e6128e4bf721029fc840f71",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-refine4-r4-kissat-r1",
+      "manifest_sha256": "797a41e281b2a83b03558c9a2127a0319f8dc44aa97ed5c581708f7d67d88b53",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r1",
+      "manifest_sha256": "dbd9e33ba998dd4ea56a52e5e614d50a31bfeeac301a25a5622c333e3429c617",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r10",
+      "manifest_sha256": "6b6b6458139b626d261bd28eb633925f12d5353024fa1268ee49345c0f3ffe09",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r11",
+      "manifest_sha256": "d1fa7cd24eb07833a92c12a973799e092f6cf2a4e134151c93d2226c7733b547",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r12",
+      "manifest_sha256": "7100e65ad768c28d785df1ab65833e748bd7bde3eee3bd931c35bdaf748a7140",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r13",
+      "manifest_sha256": "dbd7ee48dd69896ba6b5fddb0eb8a485b79b5e2ed5fbe694224924f9c0fa7b82",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r14",
+      "manifest_sha256": "2e15ca7b4bb81b3cb71c3b5b7655975776a7e099b59c3eafd7a823d257e3b82a",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 11,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r15",
+      "manifest_sha256": "84e7286d53660c655baa0a3d5056e79f50616e97435e0a3b4ddebf919c22cc2d",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r16",
+      "manifest_sha256": "aff0ae8a8e983f5999cdeb784071b0b45e277f72a024e0d449f7cddb547e86c5",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r17",
+      "manifest_sha256": "41e7ccb9f4d2303dd014139c7e7dba3df199d4349603cacdb3c3bbe66c7eb987",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r18",
+      "manifest_sha256": "376b1dba80dd4c6c688926eec4f3e087dddfdbe7bda4672b51686b123082d2c2",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r19",
+      "manifest_sha256": "fa6f31c1f6af19e8ee3b7c9cdd10ecea98a76c008d6c86db1bd94582910ce963",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r2",
+      "manifest_sha256": "61c4f61920dd161c98990b39dc080816dad075cb30cee5f7d727dd701f54d839",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r20",
+      "manifest_sha256": "faa8c8515aae6b0aef86bf4477eeac626a2f67f16f8d084dfb0d5faf2af17e23",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r21",
+      "manifest_sha256": "af7d0974c796ac95df6cd844d5b35679b77cab4ff14e87c920102cf3ac3207fe",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r22",
+      "manifest_sha256": "a7fdb9ca858ddcea7d546a14228a0270b44f7efcf6ef5b2bb8e4e1c9ec2d0285",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r23",
+      "manifest_sha256": "1f11166d8b41b3be5027695cc99737d78e7a8a5578d0caa3cd1d928eb4bfe243",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r24",
+      "manifest_sha256": "d550fe03466aa4204c1fd7286e0e4d08084df104e6a659a6d347ad464e37ce80",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r25",
+      "manifest_sha256": "5dc5c5966ee477bd7c7391cc8fd0993d691bde266a0786aac53138a4c09c2861",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r26",
+      "manifest_sha256": "565df6365413925bd1bb8356f53efa8c176dc1ec9565ae96540d6ab9c51abc2f",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r27",
+      "manifest_sha256": "4c1fa8e89ed7322d45277fbfa774fb9772f6d3e93c19c94258ef333151fdb2f1",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r28",
+      "manifest_sha256": "1b2774e82603212a7dd0484e2552c060755016119e466c0aae8897ede2683cd1",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r29",
+      "manifest_sha256": "8bc83de072e9afa3aebaaf08b00f809e3fb54435d7e84166b6c53134e563a29b",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 12,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r3",
+      "manifest_sha256": "3d1f80110924128a606d9fc78c2ff0c8b18e10a22958c69068f9a787195e9180",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r30",
+      "manifest_sha256": "b6c3e74c3f6e0a5fee4e38ab6b8cf7059de8d521b07883fdfc30741aca5ead75",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r31",
+      "manifest_sha256": "cb6091ece13f8eb1069ddf288b79ebe633089510811a49f473fa400912b0a4fa",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r32",
+      "manifest_sha256": "726d3770da8fb659e7a21ee3b21dabe30e1e0758259d4bbd5c18d343189030b2",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r33",
+      "manifest_sha256": "6466044449d883e713ef4a33924db9f82450d38373c4aa75e5a9208094d80b08",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r34",
+      "manifest_sha256": "9f032f93cc46d55ee3e3b8e8f883bc77e6d4704ba5c178f5413fb8e7ae1fe0fd",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r35",
+      "manifest_sha256": "350bbfc2036aefbf1c3301d0032c7d49438cd91a1b4bac30a7ff5a4f38b51f8c",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r36",
+      "manifest_sha256": "4aef7dbcc3f3292b2fd8bfe5fe00fc2ab2c4ff6f1356e7014026b9c0ec48fa21",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r37",
+      "manifest_sha256": "b210adf67450f81ea2744dbb639aa7f16d6fb50a37210bc1cf59a14529f729db",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 252,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r38",
+      "manifest_sha256": "c4e87ebc54cb56d76d89faf238d08d6e651f96dc55cb23118d13eceb479a687e",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r39",
+      "manifest_sha256": "fe62220fcbadc3a30b5e9215cf3ad0204c97450c5e51133b8d0b53088c991e94",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r4",
+      "manifest_sha256": "edbadd5b54a11f72e6d3aed30063a7fcfda5795404964217d12b0dccf0191c8d",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 254,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r40",
+      "manifest_sha256": "96d65d1db9cd28ff35f34f294b0a53e1c27212230fc7ea746f357e0f6bf51ec9",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 248,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r41",
+      "manifest_sha256": "88c3f6bf2e51583864580edffa812ee7a4e5335dfa71f74d5961279343bdfe53",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 255,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r42",
+      "manifest_sha256": "539f850ce34eca4114592191ad0823e193d685472f9c32458975ac6c9091ef2b",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r43",
+      "manifest_sha256": "3f4090e6eac7a5125bc923a9369142bd824976240c70483ca89996f48635e5a7",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 256,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r44",
+      "manifest_sha256": "7203bcd50dc75e192bf0b081e7d38200ac5f42eb339092ee694fdc7bc1d4d0c5",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 0,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r45",
+      "manifest_sha256": "225a3112c2dc8ceeaac6cc1d691bcb07dc2833080803965c0da85f49bf1dfc56",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r5",
+      "manifest_sha256": "148483c5481edb8baaa5bef5063277022b3bf381e8de7aca910727351176ac7e",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r6",
+      "manifest_sha256": "c10f2a5d19d0b2a6f2958899320b22157311c02d6a1b163efcb9d59d5366c361",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r7",
+      "manifest_sha256": "cef20dade5a5702a003a42d7deebb97134aaf61b017edc5eb550149db2a00d09",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 11,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r8",
+      "manifest_sha256": "b2692245c431fca23178bd0b7475cd8ba532aa5edcedc6b95a3141a20d8716a4",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_queue-r9",
+      "manifest_sha256": "617d2940ebac2c089f09b6a5b01bad34ca3a52fc6969a8559908633a84cdc612",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 0,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_x344-r1",
+      "manifest_sha256": "5c376fb8a144b944fb2017e1601d959b370dde06ba2333829c8c7385d3bc8fa8",
+      "status": "ACCEPTED"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/overlap-d1sign-d4-pilot",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/overlap-d4-pilot",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/overlap-sign-d4-pilot",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot-original-d4",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot-original55",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot-window-sign-d8",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot-x344",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot28",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot34",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot37",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot40",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot43",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot46",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot49",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/pilot52",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/refined19",
+      "status": "SKIPPED_INCOMPATIBLE"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-d4-pilot",
+      "manifest_sha256": "ec7a54179a1ab9da8eda1e1849cfea6eb11ee056f7d0a6e8e19927727363af75",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 30,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-d4-refined",
+      "manifest_sha256": "d74a881cbdb35797d7484a25ee4e1268e3c417ca94c84ad2b89c7222ec53cc93",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 45,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-d4-refined2",
+      "manifest_sha256": "1cda8c7c6a0f7b40375942ec6530cf5af8760de75126374550b9b7c99739afa0",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-d4-refined3",
+      "manifest_sha256": "577ce60ca2655bb3c138e3ea91d625e2855f363b56af176aaea03313ece5446a",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 60,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-final",
+      "manifest_sha256": "577ce60ca2655bb3c138e3ea91d625e2855f363b56af176aaea03313ece5446a",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-final-v2",
+      "manifest_sha256": "654a59a88ee1da42325e16fff3678a0b372ff7e13034f0c36f4dba684242fbc6",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-final-v3",
+      "manifest_sha256": "900cab7ead6029a2a92070dc297148377e4abd966bf5cae2f8162df9df0a6b9f",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 15,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-final-v4",
+      "manifest_sha256": "856dd1181d369a3ea9354471e1e2b8552b506c3991165841d24d08ab0bca1dd4",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 249,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-final-v5",
+      "manifest_sha256": "c7f1c41f12d77cbf6bd344965551b333cbc8220c384902ff353c535126c5ae23",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 13,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-lookahead-serial-v5",
+      "manifest_sha256": "2054e7516aadcf4e501a1a0ba68aa6b2aede134f5bb3d316b16b7a30c4d32916",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_records": 0,
+      "campaign": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/sliding-original-d8-pilot",
+      "manifest_sha256": "d0017b6a6e4a14d0524e94d5033d111166241cb5540964c8f0977a4df7b5238a",
+      "status": "ACCEPTED"
+    }
+  ],
+  "tree": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/adaptive/k19_N344_sliding_probe3912d4-final3993-r1.tree.json",
+  "tree_sha256": "887d7e3a44c926bd9b2f8769ec8e1853330367c2dca229bb6b9fd6232e14749e",
+  "tree_summary": {
+    "gap_leaves": 0,
+    "generator_leaves": 6901,
+    "leaves": 6901,
+    "maximum_depth": 100,
+    "nodes": 13801
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "chain_partition": "PASS",
+  "chain_roots": 173,
+  "clauses": 138594,
+  "ell": 2,
+  "exact_clause_stream": "PASS",
+  "fix_first": true,
+  "k": 19,
+  "local_counter_truth_tables": "PASS",
+  "n": 344,
+  "overlap_edges": 2943,
+  "overlap_relation_truth_table": "PASS",
+  "path": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1_sliding.cnf",
+  "progressions": 3116,
+  "schema": "erdos176.independent-sliding-cnf-audit.v1",
+  "sha256": "ab670b737250f5bb23e7849bbdb8b1ded24e8c5149c6e3da22d456f1ac27644e",
+  "variables": 32005
+}

@@ -1,0 +1,13 @@
+{
+  "clauses": 1832209,
+  "ell": 2,
+  "exact_clause_stream": "PASS",
+  "fix_first": true,
+  "k": 19,
+  "local_gadget_truth_tables": "PASS",
+  "n": 344,
+  "path": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1.cnf",
+  "schema": "erdos176.independent-cnf-audit.v1",
+  "sha256": "e548cab0efb34dd87aaa26c26f51f6a510d3eb0cf59a843b3fda0a0f4c4232b1",
+  "variables": 480208
+}

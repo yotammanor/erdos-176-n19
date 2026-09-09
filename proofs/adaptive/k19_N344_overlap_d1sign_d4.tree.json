@@ -1,0 +1,307 @@
+{
+  "leaf_count": 16,
+  "nodes": [
+    {
+      "id": 0,
+      "negative": 1,
+      "positive": 16,
+      "type": "split",
+      "variable": 50547
+    },
+    {
+      "id": 1,
+      "negative": 2,
+      "positive": 9,
+      "type": "split",
+      "variable": 50393
+    },
+    {
+      "id": 2,
+      "negative": 3,
+      "positive": 6,
+      "type": "split",
+      "variable": 50239
+    },
+    {
+      "id": 3,
+      "negative": 4,
+      "positive": 5,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 4,
+      "leaf_id": 0,
+      "literals": [
+        -50547,
+        -50393,
+        -50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 5,
+      "leaf_id": 1,
+      "literals": [
+        -50547,
+        -50393,
+        -50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 6,
+      "negative": 7,
+      "positive": 8,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 7,
+      "leaf_id": 2,
+      "literals": [
+        -50547,
+        -50393,
+        50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 8,
+      "leaf_id": 3,
+      "literals": [
+        -50547,
+        -50393,
+        50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 9,
+      "negative": 10,
+      "positive": 13,
+      "type": "split",
+      "variable": 50239
+    },
+    {
+      "id": 10,
+      "negative": 11,
+      "positive": 12,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 11,
+      "leaf_id": 4,
+      "literals": [
+        -50547,
+        50393,
+        -50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 12,
+      "leaf_id": 5,
+      "literals": [
+        -50547,
+        50393,
+        -50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 13,
+      "negative": 14,
+      "positive": 15,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 14,
+      "leaf_id": 6,
+      "literals": [
+        -50547,
+        50393,
+        50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 15,
+      "leaf_id": 7,
+      "literals": [
+        -50547,
+        50393,
+        50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 16,
+      "negative": 17,
+      "positive": 24,
+      "type": "split",
+      "variable": 50393
+    },
+    {
+      "id": 17,
+      "negative": 18,
+      "positive": 21,
+      "type": "split",
+      "variable": 50239
+    },
+    {
+      "id": 18,
+      "negative": 19,
+      "positive": 20,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 19,
+      "leaf_id": 8,
+      "literals": [
+        50547,
+        -50393,
+        -50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 20,
+      "leaf_id": 9,
+      "literals": [
+        50547,
+        -50393,
+        -50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 21,
+      "negative": 22,
+      "positive": 23,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 22,
+      "leaf_id": 10,
+      "literals": [
+        50547,
+        -50393,
+        50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 23,
+      "leaf_id": 11,
+      "literals": [
+        50547,
+        -50393,
+        50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 24,
+      "negative": 25,
+      "positive": 28,
+      "type": "split",
+      "variable": 50239
+    },
+    {
+      "id": 25,
+      "negative": 26,
+      "positive": 27,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 26,
+      "leaf_id": 12,
+      "literals": [
+        50547,
+        50393,
+        -50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 27,
+      "leaf_id": 13,
+      "literals": [
+        50547,
+        50393,
+        -50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 28,
+      "negative": 29,
+      "positive": 30,
+      "type": "split",
+      "variable": 50085
+    },
+    {
+      "id": 29,
+      "leaf_id": 14,
+      "literals": [
+        50547,
+        50393,
+        50239,
+        -50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    },
+    {
+      "id": 30,
+      "leaf_id": 15,
+      "literals": [
+        50547,
+        50393,
+        50239,
+        50085
+      ],
+      "origin": "generator",
+      "type": "leaf"
+    }
+  ],
+  "nvars": 480208,
+  "partition_argument": "Every split node has both Boolean children. Therefore its leaf paths partition all assignments, including explicit leaves added for branches omitted by the look-ahead cube generator.",
+  "returned_cube_count": 16,
+  "root": 0,
+  "schema": "erdos176.adaptive-cube-tree.v1"
+}

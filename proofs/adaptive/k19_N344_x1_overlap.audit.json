@@ -1,0 +1,15 @@
+{
+  "clauses": 1861639,
+  "ell": 2,
+  "exact_clause_stream": "PASS",
+  "fix_first": true,
+  "k": 19,
+  "local_gadget_truth_tables": "PASS",
+  "n": 344,
+  "overlap_links": "PASS",
+  "overlap_relation_truth_table": "PASS",
+  "path": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1_overlap.cnf",
+  "schema": "erdos176.independent-cnf-audit.v1",
+  "sha256": "b5ed447f144bfe2203f853c629d359038f1409e1e67a92eeaa22bfddb4a55578",
+  "variables": 480208
+}

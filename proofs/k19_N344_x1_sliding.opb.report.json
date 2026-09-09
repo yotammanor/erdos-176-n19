@@ -1,0 +1,16 @@
+{
+  "bytes": 283712,
+  "constraints": 6233,
+  "ell": 2,
+  "fix_first": true,
+  "k": 19,
+  "n": 344,
+  "overlap_equations": 2943,
+  "path": "/Users/yotam.manor/code/devex-construct/research/erdos-176-n19/proofs/k19_N344_x1_sliding.opb",
+  "progressions": 3116,
+  "root_equations": 173,
+  "schema": "erdos176.sliding-state-opb.v1",
+  "sha256": "61173ca9ad42afbb44eaa52a7582e6b315da241cd7b7f662ff418de39d793730",
+  "state_variables": 3116,
+  "variables": 3460
+}

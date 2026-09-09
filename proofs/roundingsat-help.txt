@@ -1,0 +1,97 @@
+Usage: ./tools/bin/roundingsat [OPTIONS] instance.(opb|cnf|wcnf)
+or     cat instance.(opb|cnf|wcnf) | ./tools/bin/roundingsat [OPTIONS]
+
+Options:
+  --copyright               Print copyright information and exit.
+
+  --license=?               Print the license text of the given license and exit. (/path/to/file; default: )
+
+  --help                    Print this help message and exit.
+
+  --print-sol=?             Print the solution if found. (0 or 1; default: 0)
+
+  --verbosity=?             Verbosity of the output (higher values gives more output). (0 =< int; default: 1)
+
+  --proof-log=?             Filename for the proof log, leave unspecified to disable proof logging. (/path/to/file; default: )
+
+  --opt-mode=?              Optimization mode to use. (linear, coreguided, coreboosted, hybrid; default: hybrid)
+
+  --luby-base=?             Base of the Luby restart sequence. (1 =< float; default: 2)
+
+  --luby-mult=?             Multiplier of the Luby restart sequence. (1 =< int; default: 100)
+
+  --vsids-var=?             VSIDS variable decay factor. (0.5 =< float < 1; default: 0.95)
+
+  --vsids-clause=?          VSIDS clause decay factor. (0.5 =< float < 1; default: 0.999)
+
+  --db-inc=?                Database cleanup interval increment. (1 =< int; default: 100)
+
+  --prop-counting=?         Propagation: Counting propagation instead of watched propagation. (0 (no counting) =< float =< 1 (always counting); default: 0.7)
+
+  --prop-clause=?           Propagation: Optimized two-watched propagation for clauses. (0 or 1; default: 1)
+
+  --prop-card=?             Propagation: Optimized two-watched propagation for cardinality constraints. (0 or 1; default: 1)
+
+  --prop-idx=?              Propagation: Optimize index of watches during propagation. (0 or 1; default: 1)
+
+  --prop-sup=?              Propagation: Avoid superfluous watch checks. (0 or 1; default: 1)
+
+  --lp=?                    Linear programming solver: Ratio of #pivots/#conflicts limiting LP calls (negative means infinite, 0 means no LP solving). (-1 =< float; default: 1)
+
+  --lp-budget=?             Linear programming solver: Base LP call pivot budget. (1 =< int; default: 1000)
+
+  --lp-intolerance=?        Linear programming solver: Intolerance for floating point artifacts. (0 < float; default: 1e-06)
+
+  --lp-cut-gomory=?         Linear programming solver: Generate Gomory cuts. (0 or 1; default: 1)
+
+  --lp-cut-learned=?        Linear programming solver: Use learned constraints as cuts. (0 or 1; default: 1)
+
+  --lp-cut-gomlim=?         Linear programming solver: Max number of tableau rows considered for Gomory cuts in a single round. (1 =< int; default: 100)
+
+  --lp-cut-maxcos=?         Linear programming solver: Upper bound on cosine of angle between cuts added in one round, higher means cuts can be more parallel. (0 =< float =< 1; default: 0.1)
+
+  --ca-slackdiv=?           Conflict analysis: Use slack+1 as divisor for reason constraints (instead of the asserting coefficient). (0 or 1; default: 0)
+
+  --ca-weaken-full=?        Conflict analysis: Weaken non-divisible non-falsified literals in reason constraints completely. (0 or 1; default: 0)
+
+  --ca-weaken-nonimplying=? Conflict analysis: Weaken non-implying falsified literals from reason constraints. (0 or 1; default: 0)
+
+  --bump-onlyfalse=?        Bump activity of literals encountered during conflict analysis only when falsified. (0 or 1; default: 0)
+
+  --bump-canceling=?        Bump activity of literals encountered during conflict analysis when canceling. (0 or 1; default: 1)
+
+  --bump-lits=?             Bump activity of literals encountered during conflict analysis, twice when occurring with opposing sign. (0 or 1; default: 1)
+
+  --bits-overflow=?         Bit-width: Bit width of maximum coefficient during conflict analysis calculations (0 is unlimited, unlimited or greater than 62 may use slower arbitrary precision implementations). (0 =< int; default: 62)
+
+  --bits-reduced=?          Bit-width: Bit width of maximum coefficient after reduction when exceeding bits-overflow (0 is unlimited, 1 reduces to cardinalities). (0 =< int; default: 29)
+
+  --bits-learned=?          Bit-width: Bit width of maximum coefficient for learned constraints (0 is unlimited, 1 reduces to cardinalities). (0 =< int; default: 29)
+
+  --bits-input=?            Bit width of maximum coefficient for input constraints (0 is unlimited, 1 allows only cardinalities). (0 =< int; default: 0)
+
+  --cg-encoding=?           Core guided search: Encoding of the extension constraints. (sum, lazysum, reified; default: lazysum)
+
+  --cg-boost=?              Core guided search: Seconds of core-boosted search before switching to linear search. (0 =< int; default: 10)
+
+  --cg-hybrid=?             Core guided search: Ratio of core-guided search to linear search during hybrid optimization. (0 =< float =< 1; default: 0.5)
+
+  --cg-indcores=?           Core guided search: Use independent cores for core-guided search. (0 or 1; default: 0)
+
+  --cg-strat=?              Core guided search: Use stratification for core-guided search. (0 or 1; default: 1)
+
+  --cg-solutionphase=?      Core guided search: Fix the phase to the incumbent solution during linear optimization. (0 or 1; default: 1)
+
+  --cg-cardreduct=?         Core guided search: Core-guided reduction to cardinality. (clause, minslack, bestbound; default: bestbound)
+
+  --cg-resprop=?            Core guided search: Resolve propagated assumptions when extracting cores. (0 or 1; default: 0)
+
+  --cg-decisioncore=?       Core guided search: Extract a second decision core, choose the best resulting cardinality core. (0 or 1; default: 1)
+
+  --cg-coreupper=?          Core guided search: Exploit upper bound on cardinality cores. (0 or 1; default: 1)
+
+  --keepall=?               Keep all learned constraints in the database indefinitely. (0 or 1; default: 0)
+
+  --time-limit=?            Aborting solving after specified time in seconds. (-1 off or 0 <= float; default: -1)
+
+  --log-debug=?             Output debugging information to proof log. (0 or 1; default: 0)

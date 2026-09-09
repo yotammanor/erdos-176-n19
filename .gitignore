@@ -1,0 +1,15 @@
+.uv-cache/
+.pycache/
+__pycache__/
+audit/
+tools/
+upstream/
+proofs/campaigns/
+proofs/portfolio/
+proofs/**/*.drat
+proofs/**/*.lrat
+proofs/**/*.pbp
+proofs/**/*.log
+proofs/**/*.pid
+proofs/**/cube-campaign-*/
+proofs/**/*-scratch/

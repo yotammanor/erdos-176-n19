@@ -1,0 +1,13 @@
+{
+  "witness_sha256": "936ce2049c62331d7907af1cf41fb65029ca9d8c48a5614f96eba4060ec1f867",
+  "n": 343,
+  "k": 19,
+  "ell": 2,
+  "checked_progressions": 3097,
+  "sum_histogram": {
+    "-1": 1428,
+    "1": 1669
+  },
+  "avoids": true,
+  "first_bad": null
+}
